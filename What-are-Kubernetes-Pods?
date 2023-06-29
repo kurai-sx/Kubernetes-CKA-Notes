@@ -1,0 +1,10 @@
+What is Kubernetes / k8s Pods ?
+➤ A pod in k8s represents a group of one or more application containers and some shared resources for those containers. 
+A pod can contain container , storage and both of them in a single pod. 
+A pod has its own IP for communication.
+.
+➤ Benefits of Pods :
+Many application might have more than on container which are tightly coupled and is in one-is to-one relationship.
+As if more containers are running then their can be a load for them to run and here is where POD is introduced
+so if their is a load then more pods can be created to run the task but more containers can't be created
+as it is hard to create single containers.
