@@ -1,0 +1,14 @@
+Container Orchestration Tool :
+It is a tool where if 1 VM stops working it starts new VM automatically so that the work that was being performed in the 1st VM should not stop. Here suppose VM1 stops working then it automatically starts VM3 and continues the tasks. In the VM it can stop Web Server, App Server or both at the same time.
+This shows how much is the container orchestration tool is useful.
+.
+.
+It is all about managing life cycle of containers especially in large and dynamic environments. It can be used to perform a lot of tasks :
+1. Provisioning and Deployment of containers.
+2. Scaling up or removing containers to spread application load evenly.
+3. Movement of containers from 1 host to another if there is a shortage of resources.
+4. Load balancing of service discovery between containers.
+5. Health monitoring of containers and hosts.
+.
+.
+Hence Kubernetes is on of the Container Orchestration Tool which is developed by Google.
